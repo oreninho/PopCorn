@@ -1,4 +1,4 @@
-
+-- Main using Love game engine with the relevant entry points
 function love.load()
     if arg[#arg] == '-debug' then require ("mobdebug").start() end
     require "vector"
